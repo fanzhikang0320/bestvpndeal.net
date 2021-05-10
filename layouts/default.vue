@@ -2,7 +2,7 @@
   <div>
     <header>
       <div class="header-container">
-        <img src="@/assets/image/website-logo.png" alt="Top VPN" class="website-logo">
+        <img src="@/assets/image/website-logo.png" alt="bestVpndeal" class="website-logo">
         <span class="icon menu-icon"></span>
         <ul class="website_nav">
           <li>
@@ -57,7 +57,7 @@
 
     <footer>
       <div class="footer-container">
-        <img src="@/assets/image/website-logo.png" alt="Top VPN" class="website-footer-logo">
+        <img src="@/assets/image/footer-logo.png" alt="bestVpndeal" class="website-footer-logo">
         <div class="footer_right">
           <div class="footer_right_top">
             <dl class="quick_link_list">

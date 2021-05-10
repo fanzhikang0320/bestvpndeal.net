@@ -14,10 +14,7 @@
         }
     },
     "banner": {
-        "title": "Top {length} VPN in 2021",
-        "p1": "Lassen Sie uns Ihnen helfen, den perfekten VPN-Anbieter zu finden",
-        "p2": "Bevor Sie sich für den Kauf von VPN-Diensten entscheiden, sollten Sie sicherstellen, dass die Dienste, die Sie in Betracht ziehen, so viele der oben genannten Vorteile und Funktionen wie möglich bieten.",
-        "p3": "Top VPN hat die besten VPN-Anbieter für Sie verglichen."
+        "title": "Top {length} VPN in 2021"
     },
     "product": {
         "corner": {

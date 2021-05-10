@@ -14,10 +14,7 @@
         }
     },
     "banner": {
-        "title": "Top {length} VPN of 2021",
-        "p1": "Let Us Help You Find The Perfect VPN Provider",
-        "p2": "Before you opt to buy VPN services, you'll want to make sure that the ones you're considering offer as many of the above benefits and features as possible.",
-        "p3": "Top VPN compared the best VPN providers for you."
+        "title": "Top {length} VPN of 2021"
     },
     "product": {
         "corner": {
@@ -28,7 +25,7 @@
         },
         "updated": "Last updated",
         "visit": "Visit",
-        "abailable": "Abailable on"
+        "abailable": "Available on"
     },
     "disclosure": {
         "title": "Advertising Disclosure",

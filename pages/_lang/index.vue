@@ -4,42 +4,28 @@
       <div class="banner_container" id="index_banner">
         <div class="banner_content">
           <h1 class="page_title">{{$t('banner.title', { length: productData.length })}}</h1>
-          <p>{{$t('banner.p1')}}</p>
-          <p>{{$t('banner.p2')}}</p>
-          <p>{{$t('banner.p3')}}</p>
+          <p class="desc">We tested, reviewed 100+ VPNs and we chose 10 best VPNs with these features：</p>
+          <ul class="list">
+            <li>
+              <span class="icon"></span>
+              <p class="text">Hide Your IP - secure browsing - private, secure & encrypted</p>
+            </li>
+            <li>
+              <span class="icon"></span>
+              <p class="text">Cheapest VPNs on the market with global server locations</p>
+            </li>
+            <li>
+              <span class="icon"></span>
+              <p class="text">Unblocking - Stream TV & movies, Netflix & Amazon in HD, super fast</p>
+            </li>
+            <li>
+              <span class="icon"></span>
+              <p class="text">Try Free! All providers here offer 30 to 45 day free trial</p>
+            </li>
+          </ul>
+          
         </div>
-      </div>
-      <div class="supportted_devices-container">
-        <div class="devices_wrapper">
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/DAZN.jpg" alt="DAZN">
-          </a>
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/SHOWTIME.jpg" alt="SHOWTIME">
-          </a>
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/NETFLIX.jpg" alt="NETFLIX">
-          </a>
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/PRIME.jpg" alt="PRIME VIDEO">
-          </a>
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/HULU.jpg" alt="HULU">
-          </a>
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/DISNEP.jpg" alt="DISNEP">
-          </a>
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/BBC_PLAYER.jpg" alt="BBC PLAYER">
-          </a>
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/HBOHD.jpg" alt="HBO HD">
-          </a>
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/COMEDY_CENTRAL.jpg" alt="COMEDY CENTRAL">
-          </a>
-        </div>
-        
+        <img src="@/assets/image/home-banner.png" alt="" class="bg-pic">
       </div>
     </div>
 
@@ -91,15 +77,6 @@
             
             <span>#{{index + 1}}</span>
           </div>
-          <p class="slogan" v-if="product.slogan">{{product.slogan}}</p>
-          <!-- <div class="first-name" v-if="index == 0">UltraVPN</div> -->
-
-          <!-- <div class="price_box" v-if="index == 0">
-            <span class="text">From</span>
-            <span class="price-text">${{product.price}}</span>
-            <span class="text">/month</span>
-          </div> -->
-          <!-- <a :href="product.link" class="product_link_box" target="_blank" rel="noopener noreferrer"> -->
             <div class="product_item_content">
               <img v-lazy="product.logoSrc" :alt="product.name" class="product_logo">
               <div class="product_item_center">
@@ -160,9 +137,9 @@
 
               <div class="btn-box">
                 <a :href="product.link" class="visit_btn" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute">{{$t('product.visit')}} {{product.name}}</a>
-                <a :href="product.link" class="text-link" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute" v-if="product.speaker && product.speaker != ''"><span class="volume-icon"></span><span>{{product.speaker}}</span></a>
+                <!-- <a :href="product.link" class="text-link" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute" v-if="product.speaker && product.speaker != ''"><span class="volume-icon"></span><span>{{product.speaker}}</span></a>
                 <span v-if="product.key == 'surfshark' && $store.state.locales.locale == 'en'" style="margin-top: 10px;display:inline-block;"><del style="margin-right: 5px;">$12.95/mo</del><span style="color: #e83f60;font-weight:bold;">$2.49/mo</span></span>
-                <span v-else-if="product.key == 'surfshark'" style="margin-top: 10px;display:inline-block;"><del style="margin-right: 5px;">€10.75/mo</del><span style="color: #e83f60;font-weight:bold;">€2.07/mo</span></span>
+                <span v-else-if="product.key == 'surfshark'" style="margin-top: 10px;display:inline-block;"><del style="margin-right: 5px;">€10.75/mo</del><span style="color: #e83f60;font-weight:bold;">€2.07/mo</span></span> -->
               </div>
               
             </div>

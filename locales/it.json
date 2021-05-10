@@ -13,10 +13,7 @@
         }
     },
     "banner": {
-        "title": "Le migliori {length} VPN del 2021",
-        "p1": "Fatti aiutare per trovare il miglior provider di VPN",
-        "p2": "Prima di comprare una VPN, assicurati che mettano a disposizione il maggior numero di servizi e benefit",
-        "p3": "Le migliori VPN in paragone con i migliori provider."
+        "title": "Le migliori {length} VPN del 2021"
     },
     "product": {
         "corner": {

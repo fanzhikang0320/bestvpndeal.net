@@ -21,6 +21,8 @@ html,body {
     height: 64px;
     width: 100%;
     background-color: #ffffff;
+    border-bottom: 2px solid #bbb;
+    box-sizing: border-box;
     .header-container {
       
       width: 1200px;
@@ -65,14 +67,14 @@ html,body {
             text-decoration: none;
             display: inline-block;
             &:hover {
-              color: #4c98f5;
+              color: #74C8E3;
             }
             &.nuxt-link-exact-active {
-              background-color: #4c98f5;
-              color: #ffffff;
+              background-color: #74C8E3;
+              // color: #ffffff;
               font-weight: bold;
               &:hover {
-                color: #ffffff;
+                color: #101010;
               }
               
             }
@@ -99,7 +101,7 @@ html,body {
             }
         }
         .text-title:hover {
-            color: #4c98f5;
+            color: #74C8E3;
         }
         .reviews_nav_list {
           display: none;
@@ -137,8 +139,8 @@ html,body {
         }
         .language {
           padding: 10px 15px;
-          border: 1px solid #4c98f5;
-          color: #4c98f5;
+          border: 1px solid #74c8e3;
+          color: #74c8e3;
           font-weight: bold;
           cursor: pointer;
           border-radius: 5px;
@@ -177,7 +179,7 @@ html,body {
 
             &:hover {
               a {
-                color: #4c98f5;
+                color: #74c8e3;
               }
             }
             a {
@@ -261,7 +263,7 @@ html,body {
   footer {
     margin-top: 170px;
     width: 100%;
-    background-color: #E6F8FF;
+    background-color: #699FD0;
     .footer-container {
       display: flex;
       align-items: center;

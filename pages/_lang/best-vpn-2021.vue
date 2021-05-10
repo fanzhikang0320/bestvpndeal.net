@@ -4,42 +4,28 @@
       <div class="banner_container" id="index_banner">
         <div class="banner_content">
           <h1 class="page_title">{{$t('banner.title', { length: productData.length })}}</h1>
-          <p>{{$t('banner.p1')}}</p>
-          <p>{{$t('banner.p2')}}</p>
-          <p>{{$t('banner.p3')}}</p>
+          <p class="desc">We tested, reviewed 100+ VPNs and we chose 10 best VPNs with these features：</p>
+          <ul class="list">
+            <li>
+              <span class="icon"></span>
+              <p class="text">Hide Your IP - secure browsing - private, secure & encrypted</p>
+            </li>
+            <li>
+              <span class="icon"></span>
+              <p class="text">Cheapest VPNs on the market with global server locations</p>
+            </li>
+            <li>
+              <span class="icon"></span>
+              <p class="text">Unblocking - Stream TV & movies, Netflix & Amazon in HD, super fast</p>
+            </li>
+            <li>
+              <span class="icon"></span>
+              <p class="text">Try Free! All providers here offer 30 to 45 day free trial</p>
+            </li>
+          </ul>
+          
         </div>
-      </div>
-      <div class="supportted_devices-container">
-        <div class="devices_wrapper">
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/DAZN.jpg" alt="DAZN">
-          </a>
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/SHOWTIME.jpg" alt="SHOWTIME">
-          </a>
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/NETFLIX.jpg" alt="NETFLIX">
-          </a>
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/PRIME.jpg" alt="PRIME VIDEO">
-          </a>
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/HULU.jpg" alt="HULU">
-          </a>
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/DISNEP.jpg" alt="DISNEP">
-          </a>
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/BBC_PLAYER.jpg" alt="BBC PLAYER">
-          </a>
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/HBOHD.jpg" alt="HBO HD">
-          </a>
-          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
-            <img src="@/assets/image/COMEDY_CENTRAL.jpg" alt="COMEDY CENTRAL">
-          </a>
-        </div>
-        
+        <img src="@/assets/image/home-banner.png" alt="" class="bg-pic">
       </div>
     </div>
 
@@ -84,22 +70,13 @@
             
             <span class="most" v-if="index == 0">{{$t('product.corner.first')}}</span>
             <span class="most" v-if="index == 1">{{$t('product.corner.second')}}</span>
-            <span class="most" v-if="index == 2">{{$t('product.corner.third')}}</span>
+            <span class="most" v-if="index == 2">{{$t('product.corner.new_third')}}</span>
 
           </div>
           <div class="corner_box" v-else>
             
             <span>#{{index + 1}}</span>
           </div>
-          <p class="slogan" v-if="product.slogan">{{product.slogan}}</p>
-          <!-- <div class="first-name" v-if="index == 0">UltraVPN</div> -->
-
-          <!-- <div class="price_box" v-if="index == 0">
-            <span class="text">From</span>
-            <span class="price-text">${{product.price}}</span>
-            <span class="text">/month</span>
-          </div> -->
-          <!-- <a :href="product.link" class="product_link_box" target="_blank" rel="noopener noreferrer"> -->
             <div class="product_item_content">
               <img v-lazy="product.logoSrc" :alt="product.name" class="product_logo">
               <div class="product_item_center">
@@ -160,9 +137,9 @@
 
               <div class="btn-box">
                 <a :href="product.link" class="visit_btn" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute">{{$t('product.visit')}} {{product.name}}</a>
-                <a :href="product.link" class="text-link" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute" v-if="product.speaker && product.speaker != ''"><span class="volume-icon"></span><span>{{product.speaker}}</span></a>
+                <!-- <a :href="product.link" class="text-link" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute" v-if="product.speaker && product.speaker != ''"><span class="volume-icon"></span><span>{{product.speaker}}</span></a>
                 <span v-if="product.key == 'surfshark' && $store.state.locales.locale == 'en'" style="margin-top: 10px;display:inline-block;"><del style="margin-right: 5px;">$12.95/mo</del><span style="color: #e83f60;font-weight:bold;">$2.49/mo</span></span>
-                <span v-else-if="product.key == 'surfshark'" style="margin-top: 10px;display:inline-block;"><del style="margin-right: 5px;">€10.75/mo</del><span style="color: #e83f60;font-weight:bold;">€2.07/mo</span></span>
+                <span v-else-if="product.key == 'surfshark'" style="margin-top: 10px;display:inline-block;"><del style="margin-right: 5px;">€10.75/mo</del><span style="color: #e83f60;font-weight:bold;">€2.07/mo</span></span> -->
               </div>
               
             </div>
@@ -290,7 +267,7 @@ export default {
       const changeLink = (url,key) => {
           let keyword = route.query['utm_term'],
             
-              targetId = route.query['TagetId'],
+              targetId = route.query['TagetID'],
               aff_sub3 = route.query['loc'],
               msclkid = route.query['msclkid'],
               gclid = route.query['gclid'],
@@ -306,17 +283,19 @@ export default {
           // 判断是Google的流量还是bing的流量
 
           // if (typeof gclid != 'undefined') {
-
+          //   //Google 流量
           //   if (key == 'nordvpn') {
-          //     return `${basePath}https://hotsale.featuredproduct.news/e527db6e-9905-4870-82a5-d7aedfded2c3?gclid=${gclid}&keyword=${keyword}&TargetId=${targetId}`
+          //     // return `${basePath}https://hotsale.featuredproduct.news/e527db6e-9905-4870-82a5-d7aedfded2c3?gclid=${gclid}&keyword=${keyword}&TargetId=${targetId}`
+          //     return `${basePath}https://go.nordvpn.net/aff_c?offer_id=328&aff_id=48575&source=google`
           //   } else if (key == 'surfshark') {
-          //     return `${basePath}https://hotsale.featuredproduct.news/e3ffc5b6-da2e-471b-8e42-2802426d5e8e?keyword=${keyword}&targetid=${targetId}&gclid=${gclid}`
+          //     // return `${basePath}https://hotsale.featuredproduct.news/e3ffc5b6-da2e-471b-8e42-2802426d5e8e?keyword=${keyword}&targetid=${targetId}&gclid=${gclid}`
+          //     return `${basePath}https://get.surfshark.net/aff_c?offer_id=15&aff_id=3436&source=google`
           //   }
 
           // } else 
           
           if (typeof msclkid != 'undefined') {
-
+            // bing流量
             if (key == 'surfshark' || key == 'nordvpn') {
               return `${basePath}${url}?msclkid=${msclkid}&keyword=${keyword}&TargetId=${targetId}&CampaignId=${campaignid}`
             }
@@ -325,12 +304,14 @@ export default {
 
             if (key == 'nordvpn') {
               return `${basePath}https://hotsale.featuredproduct.news/e527db6e-9905-4870-82a5-d7aedfded2c3?gclid=${gclid}&keyword=${keyword}&TargetId=${targetId}`
+              
             } else if (key == 'surfshark') {
+              
               return `${basePath}https://hotsale.featuredproduct.news/e3ffc5b6-da2e-471b-8e42-2802426d5e8e?keyword=${keyword}&targetid=${targetId}&gclid=${gclid}`
             }
-
             return `${basePath}${url}`;
           }
+
           
           
         }
@@ -340,11 +321,11 @@ export default {
 
       // 根据当前语种加载对应的数据
       if (language == 'fr' || language == 'es' || language == 'de' || language == 'it') {
-        res = await app.$axios.get(`/data/best-vpn-2021/lang_${language}/product_${language}.json`);
-        result = await app.$axios.get(`/data/best-vpn-2021/lang_${language}/question_${language}.json`);
+        res = await app.$axios.get(`/data/lang_${language}/product_${language}.json`);
+        result = await app.$axios.get(`/data/lang_${language}/question_${language}.json`);
       } else {
-        res = await app.$axios.get('/data/best-vpn-2021/product.json');
-        result = await app.$axios.get('/data/best-vpn-2021/question.json');
+        res = await app.$axios.get('/data/product.json');
+        result = await app.$axios.get('/data/question.json');
       }
       
 
