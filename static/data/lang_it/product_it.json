@@ -1,0 +1,376 @@
+{
+    "data":[
+        {
+            "name": "NordVPN",
+            "key": "nordvpn",
+            "keyname": "Nord-VPN-Recensione",
+            "link": "https://hotsale.featuredproduct.news/3c9c090d-ac40-4851-b928-b3ab4c99c47b",
+            "logoSrc": "/data/img/NordVPN.png",
+            "picture":"/data/img/NordVPN-p.png",
+            "horizontalLogoSrc":"/data/img/NORD-h.png",
+            "reviews": 3852,
+            "price": "3.71",
+            "rate": {
+                "score": "9.8",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "68% di sconto oggi",
+            "slogan": "NordVPN: VPN completa di prim'ordine, estremamente sicura",
+            "feature": "Goditi velocità incredibili e accesso illimitato in tutto il mondo. Prova NordVPN per 30 giorni.",
+            "meritList": [
+                {
+                     "text":" Servizio VPN veloce con funzioni avanzate per la privacy "
+                 },
+                 {
+                     "text": "Oltre 5.400 server in 59 paesi"
+                 },
+                 {
+                     "text": "Streaming ininterrotto e condivisione P2P"
+                 },
+                 {
+                     "text": "Ottimo livello di sicurezza militare"
+                 },
+                 {
+                     "text": "Larghezza di banda illimitata e ad alta velocità"
+                 },
+                 {
+                     "text": "Fino a 6 dispositivi contemporaneamente" 
+                      
+                }
+            ],
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
+        },
+        
+        {
+            "name": "Surfshark",
+            "key": "surfshark",
+            "keyname": "Surfshark-Recensione",
+            "link": "https://hotsale.featuredproduct.news/546b3f0b-e334-46c0-8a7e-0b7e3af1a16c",
+            "logoSrc": "/data/img/Surfshark.png",
+            "picture":"/data/img/Surfshark-p.png",
+            "horizontalLogoSrc":"/data/img/Surfshark-h.png",
+            "reviews": 3686,
+            "price": 2.49,
+            "rate": {
+                "score": "9.5",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "Surfshark: fornisce una protezione affidabile per dispositivi illimitati",
+            "feature": "Dispositivi illimitati e P2P / torrenting anonimo",
+            "meritList": [
+                {
+                    "text": "Connessioni dispositivi illimitate"
+                 },
+                 {
+                     "text": "Prezzo più basso per il piano biennale"
+                 },
+                
+                 {
+                     "text": "P2P / torrenting illimitato e anonimo"
+                 },
+                 {
+                     "text": "Nessun registro utente e nessuna perdita di indirizzi IP"
+                 },
+                 {
+                     "text": "App di facile utilizzo per tutte le principali piattaforme"
+                }
+                
+            ],
+            "system": ["android","ios","mac","linux","windows","smartTv","chrome","firefox"]
+        },
+        {
+            "name": "PrivateVPN",
+            "key": "privatevpn",
+            "keyname": "",
+            "link": "https://affiliate.privatevpn.com/scripts/click.php?a_aid=5fb4c9f4a1a44&a_bid=548b0ca6",
+            "logoSrc": "/data/img/private.png",
+            "picture":"/data/img/private-vpn-p.png",
+            "horizontalLogoSrc":"/data/img/private-vpn-h.png",
+            "reviews": 3546,
+            "price": 0,
+            "rate": {
+                "score": "9.1",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "PrivateVPN: VPN economica con straordinarie capacità di streaming",
+            "feature": "VPN economica con straordinarie capacità di streaming",
+            "meritList": [
+                {
+                    "text": "Nessun buffering o lunghe attese durante la navigazione"
+                },
+                {
+                    "text": "Connettiti in modo sicuro a oltre 60 paesi"
+                 },
+                 {
+                     "text": "P2P / torrenting illimitato e privato"
+                 },
+                 {
+                     "text": "Funziona con Netflix e altri servizi"
+                 },
+                 {
+                     "text": "Prezzo accessibile"
+                }
+            ],
+            "system": ["android","ios","mac","linux","windows"]
+        },
+        {
+            "name": "Norton",
+            "key": "norton",
+            "keyname": "",
+            "link": "https://www.jdoqocy.com/click-100176895-13593334",
+            "logoSrc": "/data/img/Norton.png",
+            "horizontalLogoSrc": "/data/img/Norton-h.png",
+            "picture":"/data/img/Norton-p.png",
+            "reviews": 3424,
+            "price": 2.75,
+            "rate": {
+                "score": "8.8",
+                "max": 10
+            },
+            "saveNum": 79,
+            "speaker": "",
+            "slogan": "Norton: Uno dei nomi più importanti nella sicurezza informatica",
+            "feature": "Una delle VPN più popolari sul mercato, offre un facile accesso a contenuti limitati.",
+            "meritList": [
+                {
+                    "text": "Offre sicurezza nel browser e in altre app per dispositivi mobili"
+                 },
+                 {
+                     "text": "1.500 server distribuiti in 29 paesi"
+                 },
+                 {
+                     "text": "Prezzi flessibili e competitivi"
+                 },
+                 {
+                     "text": "Blocco tracker annunci integrato"
+                 },
+                 {
+                    "text": "Semplice e facile da usare"
+                }
+                
+            ],
+            "system": ["android","ios","mac","windows","linux"]
+        },
+        
+        {
+            "name": "ExpressVPN",
+            "key": "expressVPN",
+            "keyname": "Express-VPN-Recensione",
+            "link": "https://www.xvbelink.com/?a_fid=5176798",
+            "logoSrc": "/data/img/ExpressVPN.png",
+            "picture":"/data/img/ExpressVPN-p.png",
+            "horizontalLogoSrc":"/data/img/EXPRESS-h.png",
+            "reviews": 3321,
+            "price": 6.67,
+            "rate": {
+                "score": "8.5",
+                "max": 10
+            },
+            "speaker": "",
+            "saveNum": 77,
+            "slogan": "ExpressVPN: la tecnologia VPN più avanzata per lo streaming ultra veloce",
+            "feature": "Una delle VPN più popolari sul mercato, fornisce un facile accesso a contenuti limitati.",
+            "meritList": [
+                {
+                    "text": "Uno dei servizi VPN più veloci sul mercato"
+                 },
+                 {
+                     "text": "Connettiti in modo sicuro a più di 90 paesi con più di 3000 server"
+                 },
+                 {
+                     "text": "Sblocca Netflix, BBC iPlayer, Disney + e altri servizi"
+                 },
+                 {
+                     "text": "Criterio di zero log al 100%"
+                 },
+                 {
+                     "text": "3000 + server in 90 paesi"
+                }
+            ],
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
+        },
+        
+        {
+            "name": "PIA",
+            "key": "pia",
+            "keyname": "",
+            "link": "https://privateinternetaccess.com/offer/gen_2jq97fevw",
+            "logoSrc": "/data/img/pravateinternetaccess.png",
+            "picture":"/data/img/PIA-p.png",
+            "horizontalLogoSrc":"/data/img/PIALogo-h.png",
+            "reviews": 3221,
+            "price": 2.85,
+            "rate": {
+                "score": "8.3",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "PIA: servizio VPN leader al mondo",
+            "feature": "Una VPN economica con straordinarie capacità di streaming",
+            "meritList": [
+                
+                {
+                    "text": "3000+ server in 48 paesi"
+                 },
+                 {
+                     "text": "Larghezza di banda illimitata, supporto per P2P"
+                 },
+                 {
+                     "text": "Fino a 10 dispositivi con connessioni simultanee"
+                 },
+                 {
+                     "text": "Blocca annunci, tracker e malware"
+                }
+                
+            ],
+            "system": ["android","ios","mac","router","linux","windows"]
+        },
+        {
+            "name": "CyberGhost",
+            "keyname": "CyberGhost-Review",
+            "link": "https://www.cyberghostvpn.com/offer/vpncollection_kxq8ulmmg",
+            "logoSrc": "/data/img/CyberGhost.png",
+            "horizontalLogoSrc": "/data/img/CYBERGHOST-h.png",
+            "picture":"/data/img/CyberGhost-p.png",
+            "reviews": 3024,
+            "price": 2.75,
+            "rate": {
+                "score": "8.0",
+                "max": 10
+            },
+            "saveNum": 79,
+            "speaker": "",
+            "slogan": "CyberGhost: Provider VPN in rapida crescita",
+            "feature": "",
+            "meritList": [
+                {
+                   "text": "Connettiti in modo sicuro a più di 90 paesi"
+                 },
+                 {
+                     "text": "Sblocca Netflix, BBC iPlayer, Disney + e altri servizi"
+                 },
+                 {
+                     "text": "Nessun registro utente e nessuna perdita di indirizzi IP"
+                 },
+                 {
+                     "text": "Supporto chat dal vivo 24 ore su 24, 7 giorni su 7"
+                }
+            ],
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
+        },
+        {
+            "name": "BullGuard",
+            "key": "bullguardVPN",
+            "keyname": "",
+            "link": "https://dl-downfast.com/?a=126374&o=99949&c=0&mt=5",
+            "logoSrc": "/data/img/bullguard.png",
+            "picture":"/data/img/bullguard-p.png",
+            "horizontalLogoSrc":"",
+            "reviews": 2860,
+            "price": 0,
+            "rate": {
+                "score": "7.8",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "BullGuard VPN: Usa il miglior livello di cifratura attualmente disponibile",
+            "feature": "Proteggi la tua privacy con cifratura militare.",
+            "meritList": [
+                {
+                    "text": "Cifratura militare"
+                },
+                
+                {
+                    "text": "Eliminare quasi ogni servizio di streaming"
+                },
+                {
+                    "text": "Nessuna politica di registrazione o di tracciamento"
+                },
+                {
+                    "text": "Dispositivi simultanei fino a 6"
+                }
+            ],
+            "system": ["android","ios","mac","windows"]
+        },
+        {
+            "name": "AtlasVPN",
+            "key": "atlasvpn",
+            "keyname": "",
+            "link": "http://atlasvpn.go2cloud.org/aff_c?offer_id=34&aff_id=161",
+            "logoSrc": "/data/img/atlasvpn.png",
+            "picture":"",
+            "horizontalLogoSrc":"",
+            "reviews": 2564,
+            "price": 2.99,
+            "rate": {
+                "score": "7.5",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "AtlasVPN: Una soluzione a basso costo per le tue esigenze quotidiane",
+            "feature": "Stream fast on a secure netword. Includes bonus features such as malware protection. Enjoy amazing features at a great price!",
+            "meritList": [
+                {
+                    "text": "Prezzo più economico sul pacchetto di tre anni"
+                },
+                {
+                    "text": "Nessuna registrazione di attività e cifratura di navigazione totale"
+                },
+                {
+                    "text": "Dispositivi protetti illimitati"
+                },
+                {
+                    "text": "Protezione del malware e del phishing"
+                }
+                
+            ],
+            "system": ["android","ios","mac","windows"]
+        },
+        {
+            "name": "TotalVPN",
+            "key": "TotalVPN",
+            "keyname": "",
+            "link": "https://url.totalav.com/6064753885550/click",
+            "logoSrc": "/data/img/totalvpn.png",
+            "picture":"/data/img/totalvpn-p.png",
+            "horizontalLogoSrc":"/data/img/totalvpn-h.png",
+            "reviews": 1860,
+            "price": 0,
+            "rate": {
+                "score": "7.3",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "Total VPN: Fornisce contemporaneamente servizi Antivirus e VPN",
+            "feature": "Fornisce contemporaneamente servizi Antivirus e VPN",
+            "meritList": [
+                {
+                    "text": "Nessun buffering o lunghe attese durante la navigazione"
+                },
+                {
+                    "text": "Cifra la navigazione internet"
+                },
+                {
+                    "text": "Mantenere la sicurezza sul Wi-Fi pubblico"
+                },
+                {
+                    "text": "Accesso a siti web e contenuti geo-limitati"
+                },
+                {
+                    "text": "Protezione multi-dispositivo, come standard"
+                }
+            ],
+            "system": ["android","ios","mac","windows"]
+        }
+        
+    ]
+}
